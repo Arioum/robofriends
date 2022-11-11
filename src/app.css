@@ -10,3 +10,24 @@ h1 {
     font-weight: 200;
     color: #0CCAC4;
 }
+
+.scroll-container {
+    overflow-y: scroll;
+    height: 600px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #27377ea1;
+    border-radius: 50vw;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #020f3a;
+    border-radius: 50vw;
+  }
